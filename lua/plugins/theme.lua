@@ -1,9 +1,9 @@
 return {
-    "catppuccin/nvim",
-	config = function ()
-		require("catppuccin").setup({
-			compile = true
+	"folke/tokyonight.nvim",
+	config = function()
+		require("tokyonight").setup({
+			transparent = true,
 		})
-		vim.cmd("colorscheme catppuccin")
+		vim.cmd("colorscheme tokyonight")
 	end,
 }

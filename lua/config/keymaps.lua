@@ -7,3 +7,4 @@ vim.keymap.set("n", "<leader>cf", function()
 		lsp_format = "fallback",
 	})
 end, { desc = "Formats the current file" })
+vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<CR>")
